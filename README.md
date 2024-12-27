@@ -38,7 +38,7 @@ From the above characteristic table, we can directly write the next state equati
 
 **PROGRAM**
 
-module t_ff_ (t, clk, rst, q);
+````module t_ff_ (t, clk, rst, q);
   input t, clk, rst;
   output reg q;
 
@@ -52,6 +52,7 @@ begin
         q<=~q;
   end
 endmodule
+````
 
 
 **RTL LOGIC FOR FLIPFLOPS**
@@ -59,8 +60,7 @@ endmodule
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-![Screenshot 2024-12-17 094450](https://github.com/user-attachments/assets/42deea2f-f464-42af-ba71-3d2378339763)
-
+![image](https://github.com/user-attachments/assets/da090dd1-c4a0-4f0d-a08f-1f9128ee7b3d)
 
 **RESULTS**
  Thus the T flipflop using verilog implemented and validated their functionality using
